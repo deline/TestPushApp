@@ -20,6 +20,12 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xccheckout
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
@@ -46,6 +52,7 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+Pods/
 
 # Carthage
 #
@@ -65,3 +72,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+.idea
+.DS_Store
